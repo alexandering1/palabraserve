@@ -1,0 +1,44 @@
+{
+  "palabras": [
+    {
+      "id": "1",
+      "palabra": "audio"
+    },
+    {
+      "id": "2",
+      "palabra": "carro"
+    },
+    {
+      "id": "3",
+      "palabra": "casas"
+    },
+    {
+      "id": "4",
+      "palabra": "jefer"
+    },
+    {
+      "id": "5",
+      "palabra": "locos"
+    }
+  ],
+  "niveles": [
+    {
+      "id": "1",
+      "name": "Fácil",
+      "opc": 7
+    },
+    {
+      "id": "2",
+      "name": "Normal",
+      "opc": 5
+    },
+    {
+      "id": "3",
+      "name": "Difícil",
+      "opc": 2
+    }
+  ],
+  "jugadores": [
+    
+  ]
+}

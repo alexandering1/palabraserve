@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  padding-top: 100px;
+}
+
+input {
+  width: 200px;
+  margin-top: -90px;
+}
+
+.botones-container {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 200px;
+}
+
+.botones-container button {
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.botones-container button:nth-child(1) {
+  background-color: #33C1FF;
+}
+
+.botones-container button:nth-child(2) {
+  background-color: #FFF933;
+}
+
+.botones-container button:nth-child(3) {
+  background-color: #FF3333;
+}
+
+.Bienvenido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}/*# sourceMappingURL=inicio.component.css.map */

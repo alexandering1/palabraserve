@@ -1,0 +1,17 @@
+<!-- inicio.component.html -->
+<div class="inicio-container">
+  <div class="bienvenido">
+    <p>Bienvenido al juego de la palabra</p>
+  </div>
+  <div class="input-container">
+    <input class="firma-input" label="Jugador" labelPlacement="stacked" [(ngModel)]="jugador" placeholder="Digite Nombre Jugador">
+    <input class="firma-input" label="Correo" labelPlacement="stacked" [(ngModel)]="correo" placeholder="Digite Correo Electrónico">
+  </div>
+  <div class="botones-container">
+    <button *ngFor="let item of opciones" [disabled]="jugador.length < 3 || correo.length < 5" (click)="onSelectNivel(item.id)">
+      {{item.name}}
+    </button>
+  </div>
+  <button class="records-button" routerLink="/records">Ver Records</button>
+</div>
+

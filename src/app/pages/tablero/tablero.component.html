@@ -1,0 +1,26 @@
+
+
+
+    
+ <!-- tablero.component.html -->
+<div class="tablero-container">
+  <div class="nivel-info">
+    <p>Nivel: {{ nivel.name }}</p>
+  </div>
+  <div class="palabras-container">
+    <app-palabra *ngFor="let item of iteracion; index as i" 
+                 [palabra]="palabra" 
+                 [cont]="i" 
+                 [turno]="turno">
+    </app-palabra>
+  </div>
+  <button (click)="comprobarPalabra()" class="comprobar-button">Comprobar</button>
+</div>
+
+
+
+
+
+
+
+
